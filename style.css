@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container1{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-text{
+    font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+.impact-text{
+    font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e0f7fa;
+    padding: 50px 0;
+    position: relative;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero h1 {
+    margin: 0 0 20px;
+    font-size: 36px;
+}
+
+.hero p {
+    margin: 0 0 20px;
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #004d40;
+}
+
+.hero-image-wrapper {
+    width: 45%;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Impact Section */
+.impact {
+    background-color: #fff;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.impact-image {
+    width: 45%;
+    height: auto;
+}
+
+.impact-text {
+    width: 50%;
+}
+
+.impact h2 {
+    font-size: 28px;
+    margin: 0 0 20px;
+}
+
+/* Rules Section */
+.rules {
+    background-color: #e0f7fa;
+    padding: 50px 0;
+}
+
+.rules table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rules table, .rules th, .rules td {
+    border: 1px solid #ddd;
+}
+
+.rules th, .rules td {
+    padding: 10px;
+    text-align: left;
+}
+
+.rules th {
+    background-color: #00796b;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer marquee {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
